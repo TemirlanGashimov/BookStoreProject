@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(46, 151, 188);
+  height: 3px;
+}
+
+header {
+  height: 100px;
+  background-color: rgba(9, 33, 42, 1);
+}
+.logo_bookstore{
+  width: auto;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+body {
+  background-color: rgba(6, 23, 30, 1);
+}
+
+section {
+  color: white;
+}
+
+.borders {
+  width: 350px;
+  height: auto;
+  border: 0px solid #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(6, 50, 66);
+  padding: 15px;
+}
+
+.bookContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 64px;
+}
+
+.bookImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  height: 250px;
+  width: auto;
+}
+.send_button {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.price_color {
+  color: orangered;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.main_footer {
+  margin-top: 64px;
+  height: 81px;
+  background-color: rgba(9, 33, 42, 1);
+}
+
+.svg_cursor {
+  cursor: pointer;
+}
+
+.likes_btn_background_none {
+  background: none;
+  border: none;
+}
